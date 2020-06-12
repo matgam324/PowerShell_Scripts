@@ -18,7 +18,7 @@ $msg.From = "User@email.com"
 $msg.ReplyTo = "User@email.com"
 $msg.To.Add("User@email.com")
 $msg.subject = "Media Importing and Exporting Report"
-$msg.body = "Move to Fire Store $ExportTapes", "Move to Library $ImportTapes"
+$msg.body = "Move to Off-Site Store $ExportTapes", "Move to Library $ImportTapes"
 $msg.Priority = 'High'
 
 #Sending email
